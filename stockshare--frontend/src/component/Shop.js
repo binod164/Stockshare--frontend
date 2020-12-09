@@ -3,7 +3,7 @@ import React from 'react'
 function Shop() {
     return (
         <div>
-            Welcome to the Shop!
+            Welcome to the Shop!!!!!!!!
         </div>
     )
 }
