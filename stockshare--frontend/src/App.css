@@ -1,21 +1,61 @@
 
-.App{
 
-  text-align: left;
+.App{
+  background: url('https://miro.medium.com/max/1000/0*dtiuqS8kNB66Mp5P') ;     
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: LEFT;
   color:  rgb(250, 248, 248);
-  background-color: rgb(4, 4, 5);
+  background-color: rgb(92, 92, 219);
 }
 
-  
+  .course{
+    color:  rgb(8, 3, 3);
+  background-color: rgb(209, 209, 228); 
+  }
 .home{
   
-    background-color: #F1F1F1;
-    text-align: center;
-    color: black;
-    size: 100%;
-    padding: 20px;
-  }
+    height: 10em;
+    position: relative
+   }
 
+   .home p {
+    font-size:300%; 
+   
+    background: rgb(255, 255, 253);
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   }
+
+
+  .shop{
+    text-align:center;
+    
+    height: 100vh;
+    background-size: cover;
+  }
+.form-container{
+      
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container{
+      
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:left;
+}
 .image{
  size: cover;
  min-height: 850px;
@@ -24,6 +64,10 @@
 .btn{
   background-color: rgb(241, 243, 241);
 }
-
+.divider{
+  width:10px;
+  height:auto;
+  display:inline-block;
+}
  
   

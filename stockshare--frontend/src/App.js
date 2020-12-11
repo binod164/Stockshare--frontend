@@ -1,4 +1,4 @@
-
+import React, { Component } from 'react';
 import Nav from './component/Nav';
 import Login from './component/Login';
 
@@ -13,9 +13,10 @@ import{BrowserRouter as Router, Route,Link,NavLink, Switch} from 'react-router-d
 import './App.css';
 
 
+class App extends Component {
 
-
-function App() {
+  render() {
+  
   return (
 
     <Router>
@@ -70,5 +71,6 @@ function App() {
 }
 
     
-export default App;
+}
 
+export default App;
