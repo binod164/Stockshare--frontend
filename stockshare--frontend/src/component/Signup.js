@@ -2,7 +2,7 @@ import React from 'react'
 
 function Signup() {
     return (
-        <center>
+       
         <div class = "signup">
         
         <form action="/action_page.php" class="form-container2">
@@ -20,12 +20,13 @@ function Signup() {
     
        
         <button type="submit" class="btn">Signup</button>
+        <center>
         <img className = "about" src ="https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?auto=webp&format=pjpg&width=1200" />
-        
+        </center>
         </form>
         
         </div>
-        </center>
+       
     )
 }
 

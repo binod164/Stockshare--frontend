@@ -13,8 +13,10 @@ function Nav() {
     
         
         <button type="submit" class="btn">Login</button>
+        <center>
         <img className = "about" src ="https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2018/09/11/USATODAY/usatsports/getty-stock-market-rising_large.jpg?auto=webp&format=pjpg&width=1200" />
-        </form>
+       
+        </center> </form>
         
         </div>
     )
