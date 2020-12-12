@@ -4,7 +4,7 @@ export class Home extends Component {
     render() {
         return (
             <div className = "about-image">
-            <center>
+                <center>
                   <img className = "about" src ="https://cdn.aarp.net/content/dam/aarp/money/investing/2020/01/1140-bull-and-bear-illustration-with-stock-chart.jpg" />
               
                 <div className = "about-stock2">        <div className = "divider2"/> STOCKSHARE</div>

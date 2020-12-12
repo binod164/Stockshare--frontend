@@ -106,3 +106,26 @@
 .shop{
   text-align: center;
 }
+
+.Stock-image {
+  height: 250px;
+  width: 300px;
+  
+  
+ }
+
+ .Stock-card {
+   position: relative;
+   display: inline;
+   /* background-color: black; */
+    margin: 8%; 
+   height: 250px;
+   float: left;
+   outline: black;
+   background-position: 100;
+   text-align: center;
+ }
+
+ .home-page {
+   background-color: black;
+ }

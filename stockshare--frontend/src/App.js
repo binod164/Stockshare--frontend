@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Nav from './component/Nav';
-import Login from './component/Login';
+import NavBar from './component/NavBar';
 
 
-import Home from './component/Home';
+import Home from './component/About';
 import Signup from './component/Signup';
 import Shop from './component/Shop';
 import Course from './component/Course';
@@ -11,6 +11,7 @@ import Course from './component/Course';
 
 import{BrowserRouter as Router, Route,Link,NavLink, Switch} from 'react-router-dom';
 import './App.css';
+import HomePage from './component/HomePage';
 
 
 class App extends Component {
@@ -19,50 +20,26 @@ class App extends Component {
   
   return (
 
-    <Router>
-    <div class = "App">
- 
-      <nav>
- 
-            
-            <Link exact to="/">Home</Link>
-            <div className = "divider"/>
-            
-          
-            <Link to="/login">Login</Link>
-            <div className = "divider"/>
-            <Link to="/shop">Shop</Link>
-            <div className = "divider"/>
-            <Link to="/signup">Signup</Link>
-            <div className = "divider"/>
-          <Link to="/course">Course</Link>
-          
-        
-      </nav>
+    <div>
+      <NavBar/>
+  
       <Switch>
-      <Route exact path="/">
-        <Home />
-       
-        </Route>
-      <Route path="/login">
-        <Nav />
-      </Route>
-      <Route path="/signup">
-        <Signup/>
-      </Route>
-      <Route path="/shop">
-        <Shop/>
-      </Route>
-      <Route path="/course">
-        <Course/>
-      </Route>
       
+        <Route path="/login" component = {Nav} />
       
-    </Switch>
+        <Route path="/signup" component = {Signup} />
+        
+        <Route path="/shop" component = {Shop} />
+        
+        <Route path="/course" component = {Course} />
+  
+        <Route exact path="/" component = {HomePage} />
+      
+       </Switch>
   
     
   </div>
-</Router>
+
 );
 }
 

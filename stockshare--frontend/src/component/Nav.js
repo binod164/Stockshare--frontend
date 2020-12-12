@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Nav extends Component {
     render() {
         return (
-            <div class = "post">
+            <div className = "post">
         <form action="/action_page.php" class="form-container">
 
         <label for="email"><b>Enter email</b></label>

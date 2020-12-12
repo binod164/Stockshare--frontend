@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export class Signup extends Component {
     render() {
         return (
-            <div class = "signup">
+            <div className = "signup">
         
             <form action="/action_page.php" class="form-container2">
             <label for="fullname"><b>First Name</b></label>
