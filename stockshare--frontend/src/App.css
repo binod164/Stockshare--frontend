@@ -1,19 +1,18 @@
 
-
 .App{
-  background: url('https://miro.medium.com/max/1000/0*dtiuqS8kNB66Mp5P') ;     
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: LEFT;
-  color:  rgb(250, 248, 248);
-  background-color: rgb(92, 92, 219);
+ 
+  text-align: right;
+  
+  background-color: rgb(6, 6, 8);
+ font-size: 25px;
+ color:  rgb(194, 184, 184);
+
 }
 
   .course{
     color:  rgb(8, 3, 3);
-  background-color: rgb(209, 209, 228); 
+    background-image: url("https://cdn.aarp.net/content/dam/aarp/money/investing/2020/01/1140-bull-and-bear-illustration-with-stock-chart.jpg");
+    background-size: cover;
   }
 .home{
   
@@ -21,18 +20,7 @@
     position: relative
    }
 
-   .home p {
-    font-size:300%; 
    
-    background: rgb(255, 255, 253);
-    color:black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-   }
-
 
   .shop{
     text-align:center;
@@ -40,13 +28,17 @@
     height: 100vh;
     background-size: cover;
   }
-.form-container{
-      
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
+
+.form-container{
+  font-size:25px;   
+  text-align: left;
+  bottom: 10px;
+}
+  .form-container2{
+    font-size:25px;   
+    text-align:left;
+    bottom: 10px;
 }
 .container{
       
@@ -59,6 +51,7 @@
 .image{
  size: cover;
  min-height: 850px;
+ 
 
 }
 .btn{
@@ -69,5 +62,47 @@
   height:auto;
   display:inline-block;
 }
- 
-  
+.divider1{
+  width:100px;
+  height:auto;
+  display:inline-block;
+}
+.divider2{
+  width:10px;
+  height:auto;
+  display:inline-block;
+}
+.about{
+  size: cover;
+ min-height: 850px;
+ opacity:0.9;
+
+}
+.about-stock {
+  position: absolute;
+  bottom: 500px;
+  margin: 4%;
+  padding-right: 110px;
+  color: white;
+  left: 250px;
+  font-size: 25px;
+}
+
+.about-stock1 {
+  position: absolute;
+  bottom: 450px;
+  font-size: 25px;
+  color: white;
+  left: 500px;
+}
+.about-stock2 {
+  position: absolute;
+  top: 100px;
+  font-size: 80px;
+  color: white;
+  left: 500px;
+}
+
+.shop{
+  text-align: center;
+}

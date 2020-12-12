@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from './component/Nav';
 import Login from './component/Login';
 
-import Image from './component/Image';
+
 import Home from './component/Home';
 import Signup from './component/Signup';
 import Shop from './component/Shop';
@@ -21,32 +21,28 @@ class App extends Component {
 
     <Router>
     <div class = "App">
-    <center>
-    <h1> STOCKSHARE</h1>
-    </center>
+ 
       <nav>
-        <ul>
-        <li>
+ 
+            
             <Link exact to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/login">Login</Link>
-          </li>
-          <li>
-            <Link to="/shop">Shop</Link>
-          </li>
-          <li>
-            <Link to="/signup">Signup</Link>
-          </li>
-          <li>
-          <Link to="/course">Course</Link>
-        </li>
+            <div className = "divider"/>
+            
           
-        </ul>
+            <Link to="/login">Login</Link>
+            <div className = "divider"/>
+            <Link to="/shop">Shop</Link>
+            <div className = "divider"/>
+            <Link to="/signup">Signup</Link>
+            <div className = "divider"/>
+          <Link to="/course">Course</Link>
+          
+        
       </nav>
       <Switch>
       <Route exact path="/">
         <Home />
+       
         </Route>
       <Route path="/login">
         <Nav />
@@ -64,7 +60,7 @@ class App extends Component {
       
     </Switch>
   
-  
+    
   </div>
 </Router>
 );
