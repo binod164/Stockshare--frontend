@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Login() {
-    return (
-        
+export class Login extends Component {
+    render() {
+        return (
+           
         
         <center>
         <div class = "login">
@@ -23,9 +24,8 @@ function Login() {
         
         </div>
         </center>
-        
-    
-    )
+        )
+    }
 }
 
 export default Login

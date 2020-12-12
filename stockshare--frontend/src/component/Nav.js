@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Nav() {
-    return (
-        <div class = "post">
+export class Nav extends Component {
+    render() {
+        return (
+            <div class = "post">
         <form action="/action_page.php" class="form-container">
 
         <label for="email"><b>Enter email</b></label>
@@ -19,7 +20,8 @@ function Nav() {
         </center> </form>
         
         </div>
-    )
+        )
+    }
 }
 
-export default Nav;
+export default Nav
