@@ -75,7 +75,8 @@ export class StockDetail extends Component {
                 <button onClick = {this.handledSubmit} >Submit</button>
                 <div className="text-white">Posts: </div> {this.state.user.name}
                 {this.state.reviews.map(review => <div className="text-white">User Id-{review.user_id}: {review.comment} <button className = "fav-button" > ♥️</button> <input name = "comment"  placeholder = "Comment to this Post"/>
-                <button>Comment</button></div>)}
+                <button>Comment</button>
+                <button>Reward Points</button></div>)}
             </div>
         )
     }
