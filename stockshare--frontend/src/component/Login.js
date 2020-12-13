@@ -1,3 +1,8 @@
+
+// create a class component and put the email and password as a state, since state changes with new user
+// implement event handler onSubmit on the form  and trigger it with a helper function, so that when the user logs in with correct email and password, it redirects the user to homepage through react router
+// if the user is new, the signup page should be loaded if signup button is clicked
+
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Form } from 'react-bootstrap'
@@ -58,13 +63,10 @@ export class Login extends Component {
                              <Form.Control type="password" placeholder="Password" name="password" value={this.state.password} onChange={this.handleChange} required />
                         </Form.Group>
 
-
-                            <div className="login-button">
-
-
+                        <div className="login-button">
                             <button type="submit" className="btn">Login</button> <br />
 
-                            <Link className="signup-button" to="/signup">Sign Up</Link>
+                            <Link className="signup-button mt-2" to="/signup">Sign Up</Link>
                         </div>
                     </form>
                 </div>

@@ -1,3 +1,7 @@
+
+// all the basic information or course for the user on stocks and stocks market
+// add all the important links in this component
+
 import React, { Component } from 'react'
 
 export class Course extends Component {
@@ -31,8 +35,11 @@ export class Course extends Component {
     <button type="submit" className="btn">Claim Points</button><br>
     </br>
     <p>Extra informations on the link provided below</p>
-    <a href="https://www.nerdwallet.com/article/investing/stock-market-basics-everything-beginner-investors-know">Nerd Wallet</a><br></br>
-    <a href="https://www.investopedia.com/learn-how-to-trade-the-market-in-5-steps-4692230">Investopedia</a>
+    <a href="https://www.nerdwallet.com/article/investing/stock-market-basics-everything-beginner-investors-know" className="text-white h4"> 
+        <strong className="h4">Nerd Wallet
+        </strong>
+    </a><br></br>
+    <a href="https://www.investopedia.com/learn-how-to-trade-the-market-in-5-steps-4692230"><strong className="text-white h4">Investopedia</strong></a>
     </center>
     </form>
     

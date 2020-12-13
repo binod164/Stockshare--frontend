@@ -39,87 +39,89 @@ export default class SignUp extends Component {
     return (
       <div className = "signup">
         <form onSubmit={this.SignUp}>
-          <div className="form-group">
-            <label for="inputdefault">Name</label>
-            <input
-              className="form-control"
-              id="inputdefault"
-              name="name"
-              type="text"
-              placeholder="Name"
-              value={name}
-              onChange={this.handleChange}
-            />
-          </div>
+          <div className="d-flex flex-column col-md-4 offset-md-4">
+            <div className="form-group">
+              <label for="inputdefault">Name</label>
+              <input
+                className="form-control"
+                id="inputdefault"
+                name="name"
+                type="text"
+                placeholder="Name"
+                value={name}
+                onChange={this.handleChange}
+              />
+            </div>
 
           
-          <div className="form-group">
-            <label for="inputdefault">Email</label>
-            <input
-              className="form-control"
-              id="inputdefault"
-              name="email"
-              type="text"
-              placeholder="Email"
-              value={email}
-              onChange={this.handleChange}
-            />
-          </div>
+            <div className="form-group">
+              <label for="inputdefault">Email</label>
+              <input
+                className="form-control"
+                id="inputdefault"
+                name="email"
+                type="text"
+                placeholder="Email"
+                value={email}
+                onChange={this.handleChange}
+              />
+            </div>
 
-          <div className="form-group">
-            <label for="inputdefault">Bio</label>
-            <input
-              className="form-control"
-              id="inputdefault"
-              name="bio"
-              type="text"
-              placeholder="Bio"
-              value={bio}
-              onChange={this.handleChange}
-            />
-          </div>
+            <div className="form-group">
+              <label for="inputdefault">Bio</label>
+              <input
+                className="form-control"
+                id="inputdefault"
+                name="bio"
+                type="text"
+                placeholder="Bio"
+                value={bio}
+                onChange={this.handleChange}
+              />
+            </div>
 
-          <div className="form-group">
-            <label for="inputdefault">Image</label>
-            <input
-              className="form-control"
-              id="inputdefault"
-              name="image"
-              type="text"
-              placeholder="Enter URL"
-              src={image}
-              onChange={this.handleChange}
-            />
-          </div>
+            <div className="form-group">
+              <label for="inputdefault">Image</label>
+              <input
+                className="form-control"
+                id="inputdefault"
+                name="image"
+                type="text"
+                placeholder="Enter URL"
+                src={image}
+                onChange={this.handleChange}
+              />
+            </div>
 
-          <div className="form-group">
-            <label for="inputdefault">Username</label>
-            <input
-              className="form-control"
-              id="inputdefault"
-              name="username"
-              type="text"
-              placeholder="username"
-              value={username}
-              onChange={this.handleChange}
-            />
-          </div>
+            <div className="form-group">
+              <label for="inputdefault">Username</label>
+              <input
+                className="form-control"
+                id="inputdefault"
+                name="username"
+                type="text"
+                placeholder="username"
+                value={username}
+                onChange={this.handleChange}
+              />
+            </div>
 
-          <div className="form-group">
-            <label for="inputdefault">Password</label>
-            <input
-              className="form-control"
-              id="inputdefault"
-              name="password"
-              type="password"
-              placeholder="Password"
-              value={password}
-              onChange={this.handleChange}
-            />
+            <div className="form-group">
+              <label for="inputdefault">Password</label>
+              <input
+                className="form-control"
+                id="inputdefault"
+                name="password"
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={this.handleChange}
+              />
+            </div>
+            <Button variant="primary" className="text-dark" type="submit">
+              Submit
+            </Button>
           </div>
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
         </form>
         
       </div>

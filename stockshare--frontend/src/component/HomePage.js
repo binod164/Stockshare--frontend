@@ -1,3 +1,6 @@
+// Use fetch method to retrieve data/stocks from the back end and post in the webpage
+// start with a class component and put stocks in the state as an empty array
+
 import React, { Component } from 'react'
 import StockList from './StockList'
 import About from './About'
@@ -19,11 +22,10 @@ export class HomePage extends Component {
         })
     }
     render() {
-        // console.log("stocks",this.state.stocks)
         return (
             <div className = "home-page">
                 <About />
-              <StockList className = "home-page" stocks = {this.state.stocks}  history = {this.props.history}/>
+                    <StockList className = "home-page" stocks = {this.state.stocks}  history = {this.props.history}/>
             </div>
         )
     }

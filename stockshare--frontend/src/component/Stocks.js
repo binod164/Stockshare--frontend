@@ -1,3 +1,6 @@
+// this component renders all the stocks in the webpage
+// create a detail button and favorite button in this component
+
 import React, { Component } from 'react'
 
 export class Stocks extends Component {
