@@ -1,18 +1,23 @@
 
-.App{
+.home1{
  
-  text-align: right;
+  text-align: left;
   
   background-color: rgb(6, 6, 8);
  font-size: 25px;
- color:  rgb(194, 184, 184);
+ 
 
 }
 
   .course{
     color:  rgb(8, 3, 3);
+    
     background-image: url("https://cdn.aarp.net/content/dam/aarp/money/investing/2020/01/1140-bull-and-bear-illustration-with-stock-chart.jpg");
+    background-color: black;
     background-size: cover;
+    color:white;
+    padding: 90px 90px;
+    min-height: 1000px;
   }
 .home{
   
@@ -31,11 +36,15 @@
 
 
 .form-container{
+  color:white;
+  background-color: black;
   font-size:25px;   
   text-align: center;
   bottom: 10px;
 }
   .form-container2{
+    color:white;
+  background-color: black;
     font-size:25px;   
     text-align:center;
     bottom: 10px;
@@ -63,7 +72,7 @@
   display:inline-block;
 }
 .divider1{
-  width:100px;
+  width:300px;
   height:auto;
   display:inline-block;
 }
@@ -74,7 +83,7 @@
 }
 .about{
   size: cover;
- min-height: 850px;
+ min-height: 1000px;
  opacity:0.9;
 
 }
@@ -105,9 +114,11 @@
 
 .shop{
   text-align: center;
+  
 }
 
 .Stock-image {
+  background-color: black;
   height: 250px;
   width: 300px;
   
@@ -117,15 +128,73 @@
  .Stock-card {
    position: relative;
    display: inline;
-   /* background-color: black; */
-    margin: 8%; 
+   /* background-color: black;  */
+   margin: 8%; 
    height: 250px;
    float: left;
    outline: black;
    background-position: 100;
    text-align: center;
+   color: white
  }
 
  .home-page {
    background-color: black;
  }
+
+ .signup{
+  background-image: url("https://cdn.aarp.net/content/dam/aarp/money/investing/2020/01/1140-bull-and-bear-illustration-with-stock-chart.jpg");
+  background-color: black;
+  background-size: cover;
+  color:white;
+  padding: 90px 80px;
+  min-height: 1000px;
+}
+ 
+.column {
+  float: left;
+  width: 27%;
+  padding: 1px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.profile-image {
+  height: 300px;
+  width: 400px
+}
+
+.login-input{
+  position: absolute;
+  bottom: 600px;
+  right: 900px;
+  color: black;
+}
+
+.about-image {
+  position: relative
+}
+
+.login-button {
+
+  position: absolute;
+  bottom: 100px;
+  right: 60px;
+  top: 180px
+}
+
+.signup-button {
+  color: white;
+  top: 20px;
+  bottom: 200px
+}
+
+.detailed-image{
+  height: 250px;
+  width: 300px
+}

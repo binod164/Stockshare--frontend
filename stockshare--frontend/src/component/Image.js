@@ -5,7 +5,7 @@ export class Image extends Component {
         return (
             <div className = "image">
        
-            <img src = "https://miro.medium.com/max/1000/0*dtiuqS8kNB66Mp5P"/>
+            <img src="https://miro.medium.com/max/1000/0*dtiuqS8kNB66Mp5P"/>
                  
              </div>
         )
