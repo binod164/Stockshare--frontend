@@ -5,12 +5,12 @@
 import React, { Component } from 'react'
 
 export class Course extends Component {
-    render() {
-        return (
-            <div className = "course">
-            <form>
-            <center>
-        <h2>The Basics</h2>
+  render() {
+  return (
+  <div className = "course">
+  <form>
+  <center>
+  <h2>The Basics</h2>
     
     <p>Trading stocks: You hear that phrase all the time, although it is wrong—you don't trade stocks like baseball cards (I'll trade you 100 IBMs for 100 Intels). To "trade" means to buy and sell in the jargon of the financial markets. How a system that can accommodate one billion shares trading in a single day works is a mystery to most people. No doubt, our financial markets are marvels of technological efficiency.
             
@@ -40,12 +40,11 @@ export class Course extends Component {
         </strong>
     </a><br></br>
     <a href="https://www.investopedia.com/learn-how-to-trade-the-market-in-5-steps-4692230"><strong className="text-white h4">Investopedia</strong></a>
-    </center>
-    </form>
-    
-      </div>
-        )
-    }
+  </center>
+  </form>
+  </div>
+   )
+  }
 }
 
 export default Course
